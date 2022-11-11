@@ -1,0 +1,205 @@
+body { /* hello boi */
+    background-color: rgb(136, 13, 95);
+    background-image:  url("BGJPG.jpg"), url("/finaljpg-min.jpg"), url("ODIJPG.JPG");
+    background-position: top, middle, bottom;
+    background-repeat: no-repeat, initial, repeat;
+    background-attachment:scroll;
+    background-size: 100%,100%,100%;
+    
+}
+
+head { font-family: fantasy;
+  align-items: none;
+}
+h1 {
+  font-family: fantasy;
+  text-shadow: beige;
+  color: rgb(116, 62, 0);
+  background-color: #DBB276;
+  height: 2.5cm;
+  width: 200px;
+  text-align: center;
+  margin: 0cm;
+  padding: 0cm;
+  
+  }
+
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+ background-color: blanchedalmond;
+ color:rgb(0, 0, 0);
+ text-shadow: black;
+ 
+}
+
+h3 {
+font-family: sans-serif;
+ text-shadow: black;
+ float:left;
+ display:block;
+background-image: url("BG2.JPEG");
+color: khaki;
+padding:5px;
+}
+
+a {
+
+  border-color: rgb(139, 69, 19);/*Saddlebrown*/
+  border: px; /* her blir alt fukka*/
+  color: khaki;
+  float:left;
+  text-decoration: wavy;
+ text-decoration-line: none;  
+
+}
+h3:hover {
+  background-color:none;
+  color: burlywood;
+  size:auto;
+
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 10px;
+  overflow: 0;
+  opacity: 100%;
+  text-emphasis-color: red;
+  position:sticky;
+
+}
+
+li a {
+  display: block;
+    border-style: inset;
+    padding-top: 3cm; 
+  width: 150px;
+  Height: 100px;
+  opacity: 100%;
+  float: none;
+  display:ruby-text-container;
+  text-align: center;
+  text-decoration: wavy; 
+}
+
+li a:hover {
+  background-color: rgba(255, 196, 0, 0.644);
+  opacity: 100px;
+  color: burlywood;
+  box-shadow: 0 0 30px;
+}
+
+footer {
+  display:inline-block;
+  size: 50px;
+background-color: rgb(43, 0, 30);
+text-align:center;
+color:lightgray;
+font-style: oblique;
+outline: #DBB276;
+align-items: baseline;
+margin: -18px;
+inline-size: 100%;
+}
+
+  /*p på denne siden- album text*/
+p { 
+display:block;
+background-image: url("BG2.JPEG");
+background-position:top-left ;
+text-align: center;
+color: khaki;
+
+}
+
+div.gallery {
+  margin-top: 4%;
+  border: 5% solid rgba(255, 255, 255, 0.856);
+  float:left;
+  width: fit-content;
+}
+
+ div.gallery:hover {
+border: 5px solid #DBB276 ;
+size: 5px;
+}
+
+div.albums:hover {
+  border: 5px solid #dbb276 ;
+  size: 100%;
+
+}
+
+ div.gallery img {
+  width: auto;
+  height: auto;
+}
+.oct p {
+  margin: 0px;
+  text-align: center;
+  font-family:fantasy;
+  color:2px 2px burlywood;
+  text-shadow: brown;
+  font-size: 30px;
+}
+
+.desc p {
+  margin: 0px;
+  text-align: center;
+  font-family: fantasy;
+  color:darkgoldenrod;
+  background-color: black;
+  font-size: 20px;
+
+}
+
+.albums {
+  border: 5px solid saddlebrown;
+  margin:5px;
+  float:left;
+  width: 300px;
+ 
+}
+.Odin{
+border: 5px solid saddlebrown;
+float:none;
+margin-bottom: 5px;
+
+}
+
+.odin img{
+width: fit-content;
+size: 90%;
+
+}
+
+div.Odin:hover {
+  border: 5px solid #dbb276 ;
+  size: 100%;
+}
+
+div.albums img {
+width: 100%;
+ height: auto;
+
+}
+
+iframe {
+  margin-left: 50px;
+  align-items: baseline;
+float:inline-end;
+
+}
+
+div.Icons {
+  padding-right: 5px;
+  float:left;
+  Size:30px;
+}
+div.Icons img {
+size:15%;
+
+
+}

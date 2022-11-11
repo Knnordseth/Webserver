@@ -1,0 +1,32 @@
+
+body {
+    background-color: blanchedalmond;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    float: screenLeft;
+    border:5px;
+    background:burlywood;
+  }
+  
+  p {
+    font-family: cascadia mono, verdana,fantasy;
+    font-size: 20px;
+  }
+
+
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    color: black;
+  }
