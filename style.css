@@ -11,14 +11,15 @@ body {
   }
   
    #button1 {
-    color: blue;
+    color:red;
+    background-color: blue;
     border-color: red;
     padding:5px;
-
   }
 
   #button2 {
-  color: red;
+  color:blue;
+  background-color: red;
   border-color: blue;
   padding: 5px;
   }
