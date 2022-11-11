@@ -6,13 +6,25 @@ body {
   h1 {
     color: white;
     text-align: center;
-    float: screenLeft;
-    border:5px;
+    border:20px;
     background:burlywood;
   }
   
+   #button1 {
+    color: blue;
+    border-color: red;
+    padding:5px;
+
+  }
+
+  #button2 {
+  color: red;
+  border-color: blue;
+  padding: 5px;
+  }
+  
   p {
-    font-family: cascadia mono, verdana,fantasy;
+    font-family: cascadia mono, ,'Franklin Gothic Medium', 'Arial Narrow',verdana Arial, sans-serif;
     font-size: 20px;
   }
 
