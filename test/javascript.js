@@ -12,3 +12,9 @@ function generiskknapp(type,farge) {
     document.getElementById(ElementId).setAttribute("style",tekstellerbg + "color:" + farge); 
 
 }
+
+function btnPrimary() {
+    console.log("sucess?");
+    window.location.href = index.html  
+    console.log("sucessfosho");  
+};
